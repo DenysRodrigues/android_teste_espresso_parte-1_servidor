@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import br.com.alura.leilao.BuildConfig;
+import br.com.alura.leilao.config.BuildConfig;
 import br.com.alura.leilao.database.contrato.UsuarioContrato;
 
 public class DatabaseHelper extends SQLiteOpenHelper {

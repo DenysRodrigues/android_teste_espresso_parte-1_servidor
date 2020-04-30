@@ -2,7 +2,7 @@ package br.com.alura.leilao.api.retrofit;
 
 import android.support.annotation.NonNull;
 
-import br.com.alura.leilao.BuildConfig;
+import br.com.alura.leilao.config.BuildConfig;
 import br.com.alura.leilao.api.retrofit.service.LeilaoService;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
