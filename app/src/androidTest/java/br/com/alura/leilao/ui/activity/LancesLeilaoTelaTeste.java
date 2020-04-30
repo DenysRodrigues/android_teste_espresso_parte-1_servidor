@@ -193,7 +193,7 @@ public class LancesLeilaoTelaTeste extends BaseTesteIntegracao{
                         isDisplayed())));
 
         onView(withId(R.id.lances_leilao_maiores_lances))
-                .check(matches(allOf(withText(formatador.formata(1000000000) + " - (1) Denys\n"),
+                .check(matches(allOf(withText(formatador.formata(2000000000) + " - (1) Denys\n"),
                         isDisplayed())));
     }
 
