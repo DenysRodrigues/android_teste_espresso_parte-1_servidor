@@ -50,7 +50,7 @@ public class LancesLeilaoTelaTeste extends BaseTesteIntegracao{
     }
 
 
-    //@Test
+    @Test
     public void deve_AtualizarLancesDoLeilao_QuandoReceberUmLance() throws IOException {
 //        Salvar leilão na API
         tentaSalvarLeilaoNaApi(new Leilao("Carro"));
@@ -242,11 +242,11 @@ public class LancesLeilaoTelaTeste extends BaseTesteIntegracao{
         }
     }
 
-//    @After
-//    public void tearDown() throws IOException {
-//        limpaBasedeDadosDaApi();
-//        limpaBancoDadosInterno();
-//    }
+    @After
+    public void tearDown() throws IOException {
+        limpaBasedeDadosDaApi();
+        limpaBancoDadosInterno();
+    }
 
 
 }
